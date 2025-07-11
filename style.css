@@ -198,18 +198,22 @@ ul li a button:hover{
     border-radius: 30px;
     margin-right: 10px;
 }
+.details{
+    display: flex;
+    flex-direction: column;
+}
 .user_pic .name{
    margin-right: 10px;
     font-family: var(--font-header);
     font-size: 16px;
     color: var(--secondary-color);
+    margin-bottom: 5px;
 
 }
-.user_pic .date{
-    margin-top: 19px;
-    margin-left: -95px;
+.user_pic .date{    
     color: var(--text-color);
     font-size: 14px;
+    
 }
 
     

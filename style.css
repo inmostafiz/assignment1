@@ -213,7 +213,92 @@ ul li a button:hover{
 .user_pic .date{    
     color: var(--text-color);
     font-size: 14px;
-    
 }
-
+/* Start focus area */
+.focus_area {
+    text-align: center;
+    margin: 100px 150px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 24px;
+}
+.focus_area h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    margin-bottom: 20px;
+}
+.focus_area p {
+    font-size: 14px;
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+.focus_area .cta{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.focus_area img {
+    border-radius: 48px;
+}
+/* End focus area */
+/*Start Form Area*/
+.form_area {
+    margin: 50px 150px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 50%;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+    font-size: 35px;
+    font-weight: 800px;
+}
+.form{
+    width: 50%;
+    padding: 30px;
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-family: var(--font-header);
+    color: var(--secondary-color);
+}
+.input_field label{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: medium;
+}
+.input_field input{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: var(--font-header);
+}
+.input_field textarea{
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: var(--font-header);
+    resize: none;
+}
+.btn{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 160px;
+    border: none;
+    border-radius: 10px;
+    font-family: var(--font-header);
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fd79a8;
+}
     

@@ -288,7 +288,7 @@ ul li a button:hover{
     font-family: var(--font-header);
     resize: none;
 }
-.btn{
+.sub{
     background-color: var(--primary-color);
     color: white;
     padding: 15px 160px;
@@ -298,7 +298,43 @@ ul li a button:hover{
     font-size: 16px;
     cursor: pointer;
 }
-.btn:hover{
+.sub:hover{
     background-color: #fd79a8;
 }
+/*End Form Area*/
+/*Start Footer Area*/
+footer{
+    background-color: white;
+    padding: 50px 150px;
+    text-align: center;
+}
+footer span{
+    color: var(--primary-color);
+    font-family: var(--font-header);
+    font-size: 100px;
+    font-weight: bold;
+}
+footer p{
+    font-size: 14px;
+    color: var(--secondary-color);
+    font-family: var(--font-header);
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+footer h4{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+    
     
